@@ -26,5 +26,5 @@ var (
 )
 
 func init() {
-  RootCmd.AddCommand(internal.Gorm)
+  RootCmd.AddCommand(internal.GenCmd)
 }
