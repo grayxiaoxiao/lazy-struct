@@ -41,7 +41,7 @@ func init() {
 }
 
 func run(cmd *cobra.Command, args []string) {
-  utils.PrintLog(global.INFO_MODE, fmt.Sprintf("lazy-struct gorm running with %v", args))
+  utils.PrintLog(global.INFO_MODE, fmt.Sprintf("lazy-struct gen running with %v", args))
   if len(args) == 0 {
     utils.PrintLog(global.ERROR_MODE, "structure name is required.\033[m Example: lazy-struct gorm customer")
     return

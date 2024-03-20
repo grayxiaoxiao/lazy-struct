@@ -27,4 +27,5 @@ var (
 
 func init() {
   RootCmd.AddCommand(internal.GenCmd)
+  RootCmd.AddCommand(internal.ImpCmd)
 }
