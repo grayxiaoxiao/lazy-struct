@@ -18,4 +18,4 @@ lazy-struct gen -d tests -p business -n Customer -c sm serial_number:string name
 ```
 
 ## Version2. 根据MySQL数据表的描述信息，生成数据映射结构
-> Coding....
+> sql文件是通过 `mysqldump`命令导出不带数据的表语句
